@@ -2,6 +2,8 @@
 .venv
 venv/
 
+Flow Models
+
 # Python cache
 __pycache__/
 *.pyc
