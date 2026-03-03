@@ -2,7 +2,7 @@
     "intents" :[
         {
             "tag" : "greeting",
-            "patterns" : [
+            "patterns" : [  
                 "Hi",
                 "Hello",
                 "Hey",
@@ -12,7 +12,11 @@
                 "Good Evening",
                 "Good Afternoon",
                 "Hey Buddy",
-                "Hi there"
+                "Hi there",
+                "Hey how you doing",
+                "What's up dude",
+                "Hey, how's your day going",
+                "How's it going"
             ],
             "responses" : [
                 "Hello! How can I help with your fitness goals today?"
@@ -31,7 +35,14 @@
                 "See ya",
                 "Have a good day",
                 "Peace out",
-                "Later"
+                "Later",
+                "Bye-Bye",
+                "Goodbye dude",
+                "I'm heading out",
+                "Gotta go",
+                "See you soon",
+                "Take care",
+                "I'm done for today"
             ],
             "responses" : [
                 "Goodbye !! Stay fit and stay consistent"
@@ -50,7 +61,14 @@
                 "Tips to lose body fat",
                 "Cardio for weight loss",
                 "How to drop weight fast",
-                "Fat burning workouts"
+                "Fat burning workouts",
+                "What do i do for losing fat",
+                "How to lose fat in 30 days",
+                "I'm heading out",
+                "Gotta go",
+                "See you soon",
+                "Take care",
+                "I'm done for today"
             ],
             "responses" : [
                 "To lose weight effectively:\n\n1️⃣ Create a calorie deficit (eat slightly fewer calories than you burn).\n2️⃣ Combine strength training (3–4x/week) with cardio (20–30 mins).\n3️⃣ Prioritize protein intake to preserve muscle.\n4️⃣ Get 7–8 hours of sleep.\n\nWould you like a beginner fat-loss workout plan?"
@@ -69,7 +87,12 @@
                 "Bulking workout plan",
                 "Exercises for muscle gain",
                 "How to get bigger arms",
-                "Tips for hypertrophy"
+                "Tips for hypertrophy",
+                "How can I get bigger?",
+                "Muscle building tips",
+                "How do I get stronger",
+                "How to grow muscles naturally?",
+                "How to increase strength?"
             ],
             "responses" : [
                 "To build muscle efficiently:\n\n1️⃣ Train with progressive overload (increase weight gradually).\n2️⃣ Focus on compound lifts (squats, bench press, deadlifts).\n3️⃣ Consume 1.6–2.2g of protein per kg of body weight.\n4️⃣ Eat in a slight calorie surplus.\n5️⃣ Rest each muscle group 48 hours before retraining.\n\nWould you like a sample weekly gym split?"
@@ -88,7 +111,11 @@
                 "Tell me my body mass index",
                 "Check my body weight category",
                 "Is my BMI healthy?",
-                "BMI check"
+                "Find out my BMI",
+                "Can you calculate BMI for me?",
+                "How do I know my BMI?",
+                "Check if my BMI is normal",
+                "BMI value calculation"
             ],
             "responses" : [
                 "temp"
@@ -107,7 +134,12 @@
                 "Calorie calculator",
                 "How much should I eat per day?",
                 "Energy needs calculation",
-                "Calorie estimate"
+                "Calorie estimate",
+                "How many calories do I burn daily?",
+                "What is my maintenance calorie?",
+                "Daily energy requirement?",
+                "How much should I eat to lose weight?",
+                "Calories for muscle gain?"
             ],
             "responses" : [
                 "temp"
@@ -120,13 +152,18 @@
                 "Best protein foods",
                 "High protein diet",
                 "Sources of protein",
-                "Protein rich foods",
+                "Give me a list of protein rich foods",
                 "What should I eat for protein?",
                 "Vegetarian protein sources",
-                "How to increase protein intake?",
-                "Protein options",
+                "How do I increase protein intake?",
+                "Good protein meals that I can have",
                 "Good protein meals",
-                "Protein recommendations"
+                "Protein recommendations",
+                "List of protein rich foods",
+                "What are good protein options?",
+                "High protein vegetarian foods",
+                "Protein diet ideas",
+                "Best foods for muscle recovery?"
             ],
             "responses" : [
                 "temp"
@@ -145,7 +182,11 @@
                 "Exercises I can do at home",
                 "Beginner home workout",
                 "Quick home workout",
-                "Home training routine"
+                "Home training routine",
+                "Give me a list of workouts I can do at my house",
+                "Exercises at home for beginners",
+                "Quick workout I can do at home",
+                "Workout plan without equipment"
             ],
             "responses" : [
                 "temp"
@@ -162,9 +203,14 @@
                 "Gym schedule",
                 "Weight training routine",
                 "Gym split routine",
-                "Push pull legs workout",
-                "Upper lower split",
-                "Strength workout at gym"
+                "What is a Push pull legs workout",
+                "What is a Upper lower split",
+                "Strength workout at gym",
+                "Gym routine for beginners",
+                "Full body gym workout",
+                "Gym workout for noobs",
+                "Workout plan for muscle building",
+                "Best strength exercises at gym"
             ],
             "responses" : [
                 "temp"
@@ -183,7 +229,13 @@
                 "Push me to train",
                 "How to stay disciplined?",
                 "Help me stay focused",
-                "I need workout motivation"
+                "I need workout motivation",
+                "I feel really demotivated today",
+                "Today was the absolute worst",
+                "Fuck my life",
+                "I don't feel like training today",
+                "I feel really depressed today",
+                "I am going to stop going to the gym"
             ],
             "responses" : [
                 "temp"

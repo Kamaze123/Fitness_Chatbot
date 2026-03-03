@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 
 
 def load_intents(path):
-    with open(path, 'r') as file:
+    with open(path, 'r', encoding='utf-8') as file:
         data = json.load(file)
     return data
 
@@ -23,7 +23,7 @@ def prepare_data(intents_data):
 
 
 def vectorize_text(patterns):
-    vectorizer = TfidfVectorizer()
+    vectorizer = TfidfVectorizer()    
     X = vectorizer.fit_transform(patterns)
     return X, vectorizer
 
