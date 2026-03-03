@@ -28,9 +28,9 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 #Train Neural Network
 model = Sequential([
-    Dense(64, activation='relu', input_shape=(X_train.shape[1],),  kernel_regularizer=regularizers.l2(0.001)),
+    Dense(128, activation='relu', input_shape=(X_train.shape[1],),  kernel_regularizer=regularizers.l2(0.001)),
     Dropout(0.4),
-    Dense(32, activation='relu',  kernel_regularizer=regularizers.l2(0.001)),
+    Dense(64, activation='relu',  kernel_regularizer=regularizers.l2(0.001)),
     Dropout(0.3),
     Dense(y.shape[1], activation='softmax')
 ])
@@ -38,21 +38,13 @@ model = Sequential([
 
 sgd = SGD(learning_rate=0.01, momentum=0.9, nesterov=True)
 
+#using SGD as optimizer for better training accuracy
 model.compile(
     optimizer=sgd,
     loss='categorical_crossentropy',
     metrics=['accuracy']
 )
 
-#fitting training data into neural network
-# history = model.fit(
-#     X_train,
-#     y_train,
-#     epochs=120,
-#     batch_size=8,
-#     validation_data=(X_test, y_test),
-#     verbose=1
-# )
 
 #Early stopping to prevent memorization
 early_stop = EarlyStopping(
@@ -65,3 +57,12 @@ history = model.fit(X_train, y_train, epochs = 100, batch_size = 8, verbose = 1)
 
 loss, accuracy = model.evaluate(X_test, y_test)
 print(f"\nTest Accuracy: {accuracy:.2f}")
+
+#Saving model
+model.save("model/chatbot_model.keras")
+
+with open("model/vectorizer.pkl", "wb") as f:
+    pickle.dump(vectorizer, f)
+
+with open("model/label_encoder.pkl", "wb") as f:
+    pickle.dump(label_encoder, f)

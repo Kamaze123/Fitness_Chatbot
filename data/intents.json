@@ -16,7 +16,11 @@
                 "Hey how you doing",
                 "What's up dude",
                 "Hey, how's your day going",
-                "How's it going"
+                "How's it going",
+                "Wassup homie",
+                "Hows life",
+                "Wassup dawg",
+                "Hey gangsta"
             ],
             "responses" : [
                 "Hello! How can I help with your fitness goals today?"
@@ -64,11 +68,11 @@
                 "Fat burning workouts",
                 "What do i do for losing fat",
                 "How to lose fat in 30 days",
-                "I'm heading out",
-                "Gotta go",
-                "See you soon",
-                "Take care",
-                "I'm done for today"
+                "How can I reduce my weight?",
+                "Fastest way to burn fat?",
+                "Workout for losing belly fat",
+                "How do I get lean?",
+                "Best fat loss routine?"
             ],
             "responses" : [
                 "To lose weight effectively:\n\n1️⃣ Create a calorie deficit (eat slightly fewer calories than you burn).\n2️⃣ Combine strength training (3–4x/week) with cardio (20–30 mins).\n3️⃣ Prioritize protein intake to preserve muscle.\n4️⃣ Get 7–8 hours of sleep.\n\nWould you like a beginner fat-loss workout plan?"
@@ -123,6 +127,30 @@
         },
 
         {
+            "tag": "supplements",
+            "patterns": [
+                "Should I take protein powder?",
+                "Best supplements for muscle gain",
+                "Do I need creatine?",
+                "Are supplements necessary?",
+                "Pre workout advice",
+                "Is whey protein safe?",
+                "Supplements for beginners",
+                "Protein shake recommendations",
+                "Should I use BCAA?",
+                "What supplements should I take?",
+                "Is creatine safe?",
+                "Is whey protein bad for health?",
+                "How many grams of protein in whey protein ?",
+                "What is whey protein?",
+                "What is creatine?"
+            ],
+            "responses": [
+                "Supplements are optional.\n\n•Whey protein is a premium protein derived from cow's milk, rich in beneficial amino acids. \n• Whey powder helps if you can't meet protein goals.\n• Creatine is a highly researched, natural compound that boosts energy production in muscles, leading to increased strength, power, and lean muscle growth. \n• Creatine improves strength safely.\n• Focus on diet first before supplements."
+            ]
+        },
+
+        {
             "tag" : "calorie_calculation",
             "patterns" : [
                 "How many calories should I eat?",
@@ -139,7 +167,9 @@
                 "What is my maintenance calorie?",
                 "Daily energy requirement?",
                 "How much should I eat to lose weight?",
-                "Calories for muscle gain?"
+                "Calories for muscle gain?",
+                "How much protein should I take?",
+                "How much protein should I take in a day?"
             ],
             "responses" : [
                 "temp"
@@ -186,7 +216,10 @@
                 "Give me a list of workouts I can do at my house",
                 "Exercises at home for beginners",
                 "Quick workout I can do at home",
-                "Workout plan without equipment"
+                "Workout plan without equipment",
+                "Give me some workouts that I can do",
+                "Give me some workouts that I can do quick",
+                "Quick and easy workouts"
             ],
             "responses" : [
                 "temp"
@@ -235,7 +268,9 @@
                 "Fuck my life",
                 "I don't feel like training today",
                 "I feel really depressed today",
-                "I am going to stop going to the gym"
+                "I am going to stop going to the gym",
+                "I feel very depressed today",
+                "Today was really terrible"
             ],
             "responses" : [
                 "temp"
