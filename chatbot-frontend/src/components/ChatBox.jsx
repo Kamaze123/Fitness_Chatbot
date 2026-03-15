@@ -7,14 +7,38 @@ function ChatBox() {
   const bottomRef = useRef(null);
   const hasMessages = messages.length > 0;
 
-  const sendMessage = (text) => {
+  const sendMessage = async (text) => {
     setMessages((prev) => [...prev, { text, sender: "user" }]);
-    setTimeout(() => {
-      setMessages((prev) => [
-        ...prev,
-        { text: "Got it! Let me help you with that 💪", sender: "bot" },
-      ]);
-    }, 800);
+    
+    try {
+
+    const res = await fetch("http://localhost:5000/chat", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        message: text
+      })
+    });
+
+    const data = await res.json();
+
+    // add bot reply
+    setMessages((prev) => [
+      ...prev,
+      { text: data.response, sender: "bot" }
+    ]);
+
+  } catch (error) {
+    console.error(error);
+
+    setMessages((prev) => [
+      ...prev,
+      { text: "Something went wrong connecting to the server.", sender: "bot" }
+    ]);
+  }
+
   };
 
   useEffect(() => {
@@ -30,10 +54,10 @@ function ChatBox() {
           maxHeight: hasMessages ? "100vh" : "0px",
           opacity: hasMessages ? 1 : 0,
           transition: "max-height 600ms ease-in-out, opacity 400ms ease-in-out",
-          overflow: "hidden",
+          overflowY: hasMessages ? "auto" : "hidden",
           flex: hasMessages ? "1 1 0" : "0 0 0",
         }}
-        className="overflow-y-auto custom-scroll"
+        className="custom-scroll"
       >
         <div className="max-w-2xl mx-auto w-full px-4 py-6">
           {messages.map((msg, i) => (
