@@ -121,7 +121,7 @@ def get_bot_response(user_input, user_id="default"):
     tag, confidence = predict_intent(user_input)
 
     if confidence < 0.5:
-        return "I'm not sure I understood that."
+        return "I'm not sure I understand that. Here's what I can help you with:\n\n**Fitness Goals**\n- Weight loss tips and fat burning\n- Muscle gain and bulking advice\n\n**Workouts**\n- Home workouts (no equipment)\n- Gym workout plans and splits\n\n**Nutrition**\n- Calorie calculation and daily intake\n- Protein sources and high-protein foods\n- Supplement advice (whey, creatine, etc.)\n\n**Calculators**\n- BMI calculation\n- Daily calorie and protein needs\n\n**Motivation**\n- Staying consistent and disciplined\n- Getting back on track\n\nTry asking something like \"How do I lose weight?\" or \"Give me a gym workout plan\"!"
 
     if tag == "bmi_calculation":
         user_states[user_id] = "bmi_height"

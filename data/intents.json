@@ -22,7 +22,7 @@
                 "Hey gangsta"
             ],
             "responses" : [
-                "Hello! How can I help with your fitness goals today?"
+                "Hello! How can I help with your fitness goals today?\n\nI can help you with:\n- Weight loss & fat burning\n- Muscle gain & bulking\n- Gym & home workout plans\n- Nutrition & protein sources\n- BMI & calorie calculation\n- Supplement advice\n\nJust ask me anything!"
             ]
         },
 
@@ -48,7 +48,7 @@
                 "I'm done for today"
             ],
             "responses" : [
-                "Goodbye !! Stay fit and stay consistent"
+                "Goodbye! Stay fit and stay consistent.\n\nRemember to eat well, train hard, and sleep enough. Come back anytime you need help!"
             ]
         },
 
@@ -74,7 +74,7 @@
                 "Best fat loss routine?"
             ],
             "responses" : [
-                "To lose weight effectively:\n\n1️⃣ Create a calorie deficit (eat slightly fewer calories than you burn).\n2️⃣ Combine strength training (3–4x/week) with cardio (20–30 mins).\n3️⃣ Prioritize protein intake to preserve muscle.\n4️⃣ Get 7–8 hours of sleep.\n\nWould you like a beginner fat-loss workout plan?"
+                "To lose weight effectively:\n\n1. **Create a calorie deficit** — eat slightly fewer calories than you burn.\n2. **Strength train** 3–4x per week to preserve muscle while losing fat.\n3. **Add cardio** — 20–30 mins of walking, cycling, or HIIT.\n4. **Prioritize protein** — it keeps you full and protects muscle.\n5. **Sleep 7–8 hours** — poor sleep increases hunger hormones.\n6. **Stay hydrated** — drink at least 2–3 liters of water daily.\n\n**Beginner Fat-Loss Workout Plan:**\n- Monday: 30 min brisk walk + full body strength (squats, push-ups, rows)\n- Tuesday: 20 min HIIT (30s on, 30s off)\n- Wednesday: Rest or light yoga\n- Thursday: 30 min strength training\n- Friday: 20 min cardio of your choice\n- Saturday: Active rest (walk, stretch)\n- Sunday: Full rest\n\nAim for 0.5–1 kg of fat loss per week for sustainable results."
             ]
         },
 
@@ -98,7 +98,7 @@
                 "How to increase strength?"
             ],
             "responses" : [
-                "To build muscle efficiently:\n\n1️⃣ Train with progressive overload (increase weight gradually).\n2️⃣ Focus on compound lifts (squats, bench press, deadlifts).\n3️⃣ Consume 1.6–2.2g of protein per kg of body weight.\n4️⃣ Eat in a slight calorie surplus.\n5️⃣ Rest each muscle group 48 hours before retraining.\n\nWould you like a sample weekly gym split?"
+                "To build muscle efficiently:\n\n1. **Progressive overload** — gradually increase weight or reps over time.\n2. **Compound lifts** — squats, deadlifts, bench press, and rows give the most bang for your buck.\n3. **Eat enough protein** — aim for 1.6–2.2g per kg of bodyweight daily.\n4. **Calorie surplus** — eat slightly more than your maintenance calories.\n5. **Rest and recover** — muscles grow during rest, not during the workout.\n6. **Sleep 7–9 hours** — this is when growth hormone is released.\n\n**Sample Weekly Gym Split (PPL):**\n- Monday: Push — Bench Press, Overhead Press, Triceps\n- Tuesday: Pull — Lat Pulldown, Rows, Bicep Curls\n- Wednesday: Legs — Squats, Romanian Deadlift, Leg Press\n- Thursday: Rest\n- Friday: Push\n- Saturday: Pull\n- Sunday: Legs\n\nConsistency over months beats any short-term program."
             ]
         },
 
@@ -195,7 +195,7 @@
                 "Best foods for muscle recovery?"
             ],
             "responses" : [
-                "temp"
+                "Here are the best protein sources:\n\n**Animal-Based:**\n- Chicken breast — ~31g per 100g\n- Eggs — ~6g per egg\n- Tuna / Salmon — ~25g per 100g\n- Cottage cheese (paneer) — ~11g per 100g\n- Greek yogurt — ~10g per 100g\n- Milk — ~3.4g per 100ml\n\n**Plant-Based:**\n- Lentils (dal) — ~9g per 100g cooked\n- Chickpeas — ~8g per 100g cooked\n- Tofu — ~8g per 100g\n- Edamame — ~11g per 100g\n- Quinoa — ~4g per 100g cooked\n- Peanuts / Peanut butter — ~25g per 100g\n\n**Tips to increase protein intake:**\n- Add eggs or Greek yogurt to breakfast.\n- Snack on peanuts or roasted chickpeas.\n- Include a protein source in every meal.\n- Consider whey protein if you still fall short."
             ]
         },
 
@@ -221,7 +221,7 @@
                 "Quick and easy workouts"
             ],
             "responses" : [
-                "temp"
+                "Here's a solid no-equipment home workout you can do anywhere:\n\n**Warm Up (5 mins)**\n- Jumping jacks — 1 min\n- Arm circles + leg swings — 1 min\n- High knees — 1 min\n- Hip rotations — 1 min\n\n**Main Workout (3 rounds)**\n- Push-ups — 15 reps\n- Bodyweight squats — 20 reps\n- Plank — 40 seconds\n- Lunges — 12 reps each leg\n- Glute bridges — 20 reps\n- Mountain climbers — 30 seconds\n\n**Cool Down (3 mins)**\n- Child's pose, quad stretch, hamstring stretch\n\nRest 60 seconds between rounds. As you get stronger, add more rounds or try harder variations like archer push-ups or jump squats."
             ]
         },
 
@@ -245,7 +245,7 @@
                 "Best strength exercises at gym"
             ],
             "responses" : [
-                "temp"
+                "Here's a beginner-friendly Push Pull Legs (PPL) gym split:\n\n**Day 1 — Push (Chest, Shoulders, Triceps)**\n- Bench Press — 4×8\n- Overhead Press — 3×10\n- Incline Dumbbell Press — 3×10\n- Lateral Raises — 3×15\n- Tricep Pushdown — 3×12\n\n**Day 2 — Pull (Back, Biceps)**\n- Lat Pulldown — 4×10\n- Seated Cable Row — 3×10\n- Dumbbell Row — 3×10\n- Face Pulls — 3×15\n- Bicep Curls — 3×12\n\n**Day 3 — Legs (Quads, Hamstrings, Glutes)**\n- Squats — 4×8\n- Romanian Deadlift — 3×10\n- Leg Press — 3×12\n- Leg Curl — 3×12\n- Calf Raises — 4×15\n\nRepeat twice a week with one rest day in between. Focus on form over weight as a beginner — progressive overload is the key to growth."
             ]
         },
 
@@ -270,7 +270,7 @@
                 "Today was really terrible"
             ],
             "responses" : [
-                "temp"
+                    "Hey, it's okay. Everyone has days like this — even the most dedicated athletes.\n\nYou don't have to crush a workout today. But here's the thing:\n\n**Motivation is temporary. Discipline is what keeps you going.**\n\n- Start tiny — even a 10-minute walk counts.\n- Remember your why — why did you start?\n- Don't break the chain — showing up on bad days is what separates people who transform from people who don't.\n- Progress isn't linear — bad days are part of the journey, not a sign to quit.\n\n\"You don't have to be great to start, but you have to start to be great.\"\n\nIf you're feeling genuinely overwhelmed, please talk to someone you trust. Your mental health matters more than any workout."
             ]
         }
     ]
