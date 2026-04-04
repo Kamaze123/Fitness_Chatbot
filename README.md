@@ -1,6 +1,6 @@
 # FitBuddy
 
-An AI-powered fitness chatbot that helps users with workout plans, nutrition advice, BMI calculation, calorie estimation, and motivation. Built with a React frontend and a Flask backend using a trained machine learning model for intent classification.
+A deep learning trained model that helps users with workout plans, nutrition advice, BMI calculation and calorie estimation. Built with a React frontend and a Flask backend using a trained machine learning model for intent classification.
 
 ---
 
@@ -14,12 +14,12 @@ An AI-powered fitness chatbot that helps users with workout plans, nutrition adv
 
 - **Intent classification** using a TF-IDF + Naive Bayes ML model trained on custom fitness data
 - **Weight loss & muscle gain** advice with workout plans
-- **BMI calculator** — conversational multi-step flow
-- **Calorie calculator** — estimates daily calorie needs based on weight, height, and age
-- **Protein sources** — animal-based and plant-based options
-- **Gym & home workout plans** — beginner-friendly routines
-- **Supplement advice** — whey protein, creatine, and more
-- **Motivation** — for days when you don't feel like training
+- **BMI calculator** - conversational multi-step flow
+- **Calorie calculator** - estimates daily calorie needs based on weight, height, and age
+- **Protein sources** - animal-based and plant-based options
+- **Gym & home workout plans** - beginner-friendly routines
+- **Supplement advice** 
+- **Motivation**
 
 ---
 
